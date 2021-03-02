@@ -17,6 +17,7 @@ public class DataSourceConfig {
 		return DataSourceBuilder.create().build();
 	}
 	
+	@Bean
 	@ConfigurationProperties(prefix="app.datasource")
 	public DataSource appDataSource() {
 		return DataSourceBuilder.create().build();
