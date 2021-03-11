@@ -28,12 +28,13 @@ Para os __cabeçalhos e rodapé__, foram utilizados as funções de *'Callback'*
 
 O __rodapé__ precisa ser um listener para que um momento antes do fechamento do arquivo, ele faça o cálculo correto do total da fatura.
 
+As arquivos serão salvos na pasta *'files'*.
 
 ## Utilização
 Após realizar o 'fork/clone', executar o arquivo __/files/scripts.sql__ para criação do banco, tabelas e registros.
 
 Não esqueça de configurar usuário e senha do banco no arquivo de properties do projeto.
-Mas caso queira mudar a implementação da base, ou o tipo do BD, bastas mudar os apontamentos:
+Mas caso queira mudar a implementação da base, ou o tipo do BD, basta mudar os apontamentos:
 - pom.xml
 - application.properties
 - DataSourceConfig.java
